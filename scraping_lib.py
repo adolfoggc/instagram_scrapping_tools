@@ -9,6 +9,9 @@ def set_value(element, value):
 def get_inner_html(element):
   return element.get_attribute('innerHTML')
 
+def get_href(element):
+  return element.get_attribute('href')
+
 #selection functions
 def select_element_by_xpath(driver, element):
   return driver.find_element(By.XPATH, element)
