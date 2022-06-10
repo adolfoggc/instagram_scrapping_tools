@@ -13,14 +13,14 @@ def get_href(element):
   return element.get_attribute('href')
 
 #selection functions
-def select_element_by_xpath(driver, element):
+def select_by_xpath(driver, element):
   return driver.find_element(By.XPATH, element)
 
-def select_element_by_id(driver, element):
+def select_by_id(driver, element):
   return driver.find_element(By.ID, element)
 
-def select_element_by_name(driver, element):
+def select_by_name(driver, element):
   return driver.find_element(By.NAME, element)
 
-def select_element_by_tag_name(driver, element):
+def select_by_tag_name(driver, element):
   return driver.find_element(By.TAG_NAME, element)
