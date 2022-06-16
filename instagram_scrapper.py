@@ -1,4 +1,3 @@
-from igramscraper.instagram import Instagram
 from credentials import *
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
